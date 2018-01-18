@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Mary Jane Speech Therapy',
   },
+  pathPrefix: `/mj-speechtherapy/`,
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
