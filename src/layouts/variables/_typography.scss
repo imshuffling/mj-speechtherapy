@@ -1,0 +1,114 @@
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+// Font Variables
+$pt: 'PT Sans', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $pt;
+  margin: 10px 0 20px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.2rem;
+  line-height: 45px;
+  letter-spacing: -1px;
+  @include breakpoint(medium) {
+    font-size: 3.1176470588235294rem;
+    line-height: 63px;
+    letter-spacing: -1px;
+  }
+
+  @include breakpoint(large) {
+    font-size: 3.1176470588235294rem;
+    line-height: 63px;
+    letter-spacing: -1px;
+  }
+
+  &.page-title {
+    margin-bottom: 30px;
+    @include breakpoint(medium) {
+      margin-bottom: 50px;
+    }
+
+    @include breakpoint(large) {
+      margin-bottom: 50px;
+    }
+  }
+
+}
+
+h2 {
+  font-size: 1.4705882352941178rem;
+  @include breakpoint(medium) {
+    font-size: 1.6470588235294117rem;
+  }
+
+  @include breakpoint(large) {
+    font-size: 1.8823529411764706rem;
+  }
+
+  &.strap-line {
+    span {
+      margin-top: 15px;
+      display: inline-block;
+      @include breakpoint(medium) {
+        margin-top: 0;
+      }
+      @include breakpoint(large) {
+        margin-top: 0;
+      }
+    }
+  }
+
+}
+
+h3, h4, h5 {
+  font-size: 1.411764705882353rem;
+  margin-bottom: 10px;
+  @include breakpoint(medium) {
+    font-size: 1.6470588235294117rem;
+  }
+}
+
+a {
+  transition: all .2s ease 0s;
+  color: #6c27ae;
+  text-decoration: none;
+  display: inline-block;
+  &:hover {
+    box-shadow: 0 1px 0 #E5E5E5;
+  }
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  li {
+    > * {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.page-header {
+  background: rgba(255,255,255,0.8);
+  padding: 10px;
+  display: inline-block;
+}

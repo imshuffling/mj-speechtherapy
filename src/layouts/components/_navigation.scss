@@ -1,0 +1,129 @@
+.Header-inner {
+  max-width: 1140px;
+  margin: 0px auto;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  @include breakpoint(medium) {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  @include breakpoint(large) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+#logo {
+  max-width: 250px;
+  margin-bottom: 15px;
+  @include breakpoint(medium) {
+    max-width: 300px;
+  }
+
+  @include breakpoint(medium) {
+    max-width: 366px;
+  }
+}
+
+.contact-details {
+  @include breakpoint(medium) {
+    margin-left: auto;
+  }
+
+  @include breakpoint(large) {
+    margin-left: auto;
+  }
+
+  h2, h3, h4, h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.navigation-wrapper {
+  background: #f8f8f8;
+}
+
+#navigation {
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  li {
+    font-size: 15px;
+    a {
+      padding: 0 20px;
+      line-height: 40px;
+      &:hover, &.active {
+        box-shadow: none;
+        background: #6c27ae;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.banner {
+  height: 250px;
+  background-color: #FFE7E7 !important;
+  margin: 0px auto 40px auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.banner-inner {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+
+#home {
+  .banner {
+    background-image: url("/static/images/01.jpg");
+  }
+}
+
+#about-me {
+  .banner {
+    background-image: url("/static/images/02.jpg");
+  }
+}
+
+#testimonials {
+  .banner {
+    background-image: url("/static/images/03.jpg");
+  }
+}
+
+#faqs {
+  .banner {
+    background-image: url("/static/images/04.jpg");
+  }
+}
+
+#useful-websites {
+  .banner {
+    background-image: url("/static/images/05.jpg");
+  }
+}
+
+#fees {
+  .banner {
+    background-image: url("/static/images/06.jpg");
+  }
+}
+
+#contact {
+  .banner {
+    background-image: url("/static/images/07.jpg");
+  }
+}

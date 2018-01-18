@@ -1,0 +1,66 @@
+@import "reset.scss";
+@import "grid-settings.scss";
+@import "components/components";
+@import "variables/variables";
+
+html {
+  background-color: #E5E5E5;
+  background-position: 0 0;
+  background-repeat: repeat;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17px;
+}
+
+body {
+  font-family: $pt;
+  font-weight: normal;
+  line-height: 1.42857;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #fff;
+  min-height: 100vh;
+}
+
+.main-content {
+  @extend .grid;
+  @include breakpoint(medium) {
+    display: flex;
+  }
+}
+
+.grid {
+  width: 100%;
+  margin: 0px auto;
+
+  @include breakpoint(medium) {
+    max-width: 720px;
+  }
+
+  @include breakpoint(large) {
+    max-width: 1140px;
+  }
+}
+
+.main-content-column {
+  padding: 0 20px;
+  margin-bottom: 40px;
+  @include breakpoint(medium) {
+    margin-bottom: 0;
+    width: 66.66666667%;
+  }
+}
+
+.sidebar {
+  padding: 0 20px;
+  @include breakpoint(medium) {
+    width: 33.33333333%;
+    text-align: right;
+  }
+}
