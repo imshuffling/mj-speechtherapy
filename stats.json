@@ -1,0 +1,96 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-24d369a94f049f90a394.js",
+      "component---src-pages-index-js-24d369a94f049f90a394.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-49b839b1e6f940ace4a6.js",
+      "component---src-pages-contact-js-49b839b1e6f940ace4a6.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-fc3370aeaed1cc734075.js",
+      "component---src-layouts-index-js-fc3370aeaed1cc734075.js.map"
+    ],
+    "path---useful-websites": [
+      "path---useful-websites-a0e39f21c11f6a62c5ab.js",
+      "path---useful-websites-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---fees": [
+      "path---fees-a0e39f21c11f6a62c5ab.js",
+      "path---fees-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-faqs-js": [
+      "component---src-pages-faqs-js-b4ea7a50535a82f849c0.js",
+      "component---src-pages-faqs-js-b4ea7a50535a82f849c0.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-961887d3f3b2d16d5e81.js",
+      "commons-961887d3f3b2d16d5e81.js.map"
+    ],
+    "path---about-me": [
+      "path---about-me-a0e39f21c11f6a62c5ab.js",
+      "path---about-me-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-fees-js": [
+      "component---src-pages-fees-js-e9736292168fb7e92fb2.js",
+      "component---src-pages-fees-js-e9736292168fb7e92fb2.js.map"
+    ],
+    "component---src-pages-useful-websites-js": [
+      "component---src-pages-useful-websites-js-b045774f69a2226f00b3.js",
+      "component---src-pages-useful-websites-js-b045774f69a2226f00b3.js.map"
+    ],
+    "component---src-pages-testimonials-js": [
+      "component---src-pages-testimonials-js-3fa33caa039a976c5b0a.js",
+      "component---src-pages-testimonials-js-3fa33caa039a976c5b0a.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-bdda9550b376610f81b9.js",
+      "app-bdda9550b376610f81b9.js.map"
+    ],
+    "component---src-pages-about-me-js": [
+      "component---src-pages-about-me-js-3e5fb4e53e07a6044c8e.js",
+      "component---src-pages-about-me-js-3e5fb4e53e07a6044c8e.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---faqs": [
+      "path---faqs-a0e39f21c11f6a62c5ab.js",
+      "path---faqs-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---testimonials": [
+      "path---testimonials-a0e39f21c11f6a62c5ab.js",
+      "path---testimonials-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
