@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/mj-speechtherapy/app-753409725cd3bdecf252.js","a54e4685506bb0afc308cfc35970cadf"],["/mj-speechtherapy/app-7f6293c8cfc53ecffe8c.js","023c31b201307418cfc32a3db1b952ca"],["/mj-speechtherapy/app-bdda9550b376610f81b9.js","dbd99de7aef0ab0f4549bd2adcad403e"],["/mj-speechtherapy/commons-43211b24d1c1daae657e.js","f4d8954c6f1b495165f6e450a696b001"],["/mj-speechtherapy/commons-961887d3f3b2d16d5e81.js","181b6e5facfbec04420d89c9c2470f94"],["/mj-speechtherapy/index.html","b53e84b98648295a01d090b14cb39733"],["/mj-speechtherapy/manifest.json","31a3195a554b3d7b9e3647f2261fadea"],["/mj-speechtherapy/offline-plugin-app-shell-fallback/index.html","0c18dcafd85c25d9f1df035186c5b745"]];
+var precacheConfig = [["/app-753409725cd3bdecf252.js","a54e4685506bb0afc308cfc35970cadf"],["/app-7f6293c8cfc53ecffe8c.js","023c31b201307418cfc32a3db1b952ca"],["/app-bdda9550b376610f81b9.js","9867b3cca36a9ce330d8ddf37cdcbc60"],["/commons-43211b24d1c1daae657e.js","f4d8954c6f1b495165f6e450a696b001"],["/commons-961887d3f3b2d16d5e81.js","cc820828248811e89f9f8484955bec85"],["/index.html","144617b9087fa4d31bc0ef8371ed7d2c"],["/manifest.json","8ec10d0b1ef28b3a7ddf19371794ac64"],["/offline-plugin-app-shell-fallback/index.html","b850d5d1d3d0d934370d164b1b2d6cc2"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
