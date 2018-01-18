@@ -22,8 +22,8 @@ module.exports = {
             // directory in /public during development and build, so
             // assuming your favicons are in /static/favicons,
             // you can reference them here
-            src: '/favicons/favicon.png',
-            sizes: '192x192',
+            src: '/static/favicons/favicon.png',
+            sizes: '32x32',
             type: 'image/png',
           },
         ],
