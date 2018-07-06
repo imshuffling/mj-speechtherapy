@@ -25,6 +25,14 @@
   @include breakpoint(medium) {
     max-width: 366px;
   }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
 }
 
 .contact-details {
@@ -124,7 +132,7 @@
   }
 }
 
-#contact {
+#contact, #privacy-policy {
   .banner {
     background-image: url("../images/07.jpg");
   }

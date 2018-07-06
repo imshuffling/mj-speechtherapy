@@ -29,7 +29,12 @@ const Header = () => (
 )
 
 const Footer = () => (
-  <footer id="Footer"><div className="Footer-inner"><p>Mary Jane Iles © 2018</p></div></footer>
+  <footer id="Footer">
+    <div className="Footer-inner">
+      <div><p>Mary Jane Iles © 2018</p></div>
+      <div><p><Link to='/privacy-policy'>Privacy policy</Link></p></div>
+    </div>
+  </footer>
 )
 
 const TemplateWrapper = ({ children }) => (
