@@ -19,8 +19,8 @@ const IndexPage = () => (
       <p>I hope you can find the information you need on this website but please feel free to contact me with any queries relating to your child's speech, language or communication needs.</p>
     </div>
       <aside className="sidebar">
-        <img className="me" src="../images/mary-jane.jpg" alt="Picture of me" />
-        <img className="certifications" src="../images/registered-logos.jpg" alt="Certifications that I'm registered to." />
+        <img className="me" src="/static/images/mary-jane.jpg" alt="Picture of me" />
+        <img className="certifications" src="/static/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
       </aside>
     </div>
 

@@ -29,8 +29,8 @@ const AboutMe = () => (
         <p>I am a member of the Royal College of Speech and Language Therapists (RCSLT) and the Association of Speech and Language Therapists in Independent Practice (ASLTIP). I am registered with the Health and Care Professions Council (HCPC). These bodies ensure that we maintain certain professional standards and continue our professional development through training courses, peer meetings etc.</p>
       </div>
       <aside className="sidebar">
-        <img className="me" src="../images/mary-jane.jpg" alt="Picture of me" />
-        <img className="certifications" src="../images/registered-logos.jpg" alt="Certifications that I'm registered to." />
+        <img className="me" src="/static/images/mary-jane.jpg" alt="Picture of me" />
+        <img className="certifications" src="/static/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
       </aside>
     </div>
 

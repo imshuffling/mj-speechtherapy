@@ -43,8 +43,8 @@ const Faqs = () => (
         <p>I do not operate a waiting list; I will endeavour to arrange an appointment as soon as possible at a time that is convenient to you.&nbsp;</p>
       </div>
       <aside className="sidebar">
-        <img className="me" src="../images/mary-jane.jpg" alt="Picture of me" />
-        <img className="certifications" src="../images/registered-logos.jpg" alt="Certifications that I'm registered to." />
+        <img className="me" src="/static/images/mary-jane.jpg" alt="Picture of me" />
+        <img className="certifications" src="/static/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
       </aside>
     </div>
 

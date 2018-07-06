@@ -2,13 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import logo from '../logo.png';
 
 import './index.scss'
 
 const Header = () => (
   <header id='Header'>
     <div className="Header-inner">
-      <div id="logo"><Link to='/'><img src="../images/logo.png" alt="Mary Jane - Speech Therapy" /></Link></div>
+      <div id="logo"><Link to='/'><img src={logo} alt="Mary Jane - Speech Therapy" /></Link></div>
       <div className="contact-details">
         <div id="phone"><h2>01892 723309</h2></div>
         <div id="email"><h5><a href="mailto:maryjane@madpoplars.co.uk">maryjane@madpoplars.co.uk</a></h5></div>
