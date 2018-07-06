@@ -1,28 +1,28 @@
 {
   "assetsByChunkName": {
     "component---src-pages-privacy-policy-js": [
-      "component---src-pages-privacy-policy-js-96fab7d83149293866ed.js",
-      "component---src-pages-privacy-policy-js-96fab7d83149293866ed.js.map"
+      "component---src-pages-privacy-policy-js-b12d0b987609067c64d0.js",
+      "component---src-pages-privacy-policy-js-b12d0b987609067c64d0.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-24d369a94f049f90a394.js",
-      "component---src-pages-index-js-24d369a94f049f90a394.js.map"
+      "component---src-pages-index-js-0dae759920266edd37c6.js",
+      "component---src-pages-index-js-0dae759920266edd37c6.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-49b839b1e6f940ace4a6.js",
-      "component---src-pages-contact-js-49b839b1e6f940ace4a6.js.map"
+      "component---src-pages-contact-js-2a84d72786464be543ec.js",
+      "component---src-pages-contact-js-2a84d72786464be543ec.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-7cb0081f065600b0c0df.js",
-      "component---src-layouts-index-js-7cb0081f065600b0c0df.js.map"
+      "component---src-layouts-index-js-55af7943a1af8fc2a1e5.js",
+      "component---src-layouts-index-js-55af7943a1af8fc2a1e5.js.map"
     ],
     "path---useful-websites": [
       "path---useful-websites-a0e39f21c11f6a62c5ab.js",
@@ -37,12 +37,12 @@
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-faqs-js": [
-      "component---src-pages-faqs-js-b4ea7a50535a82f849c0.js",
-      "component---src-pages-faqs-js-b4ea7a50535a82f849c0.js.map"
+      "component---src-pages-faqs-js-f1a74793040060b9e26d.js",
+      "component---src-pages-faqs-js-f1a74793040060b9e26d.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-aa214d34434df1c456ac.js",
-      "component---src-pages-404-js-aa214d34434df1c456ac.js.map"
+      "component---src-pages-404-js-17cbf74a0294d18fd9be.js",
+      "component---src-pages-404-js-17cbf74a0294d18fd9be.js.map"
     ],
     "commons": [
       "commons-922bd637923bf00f2c28.js",
@@ -61,16 +61,16 @@
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-fees-js": [
-      "component---src-pages-fees-js-e9736292168fb7e92fb2.js",
-      "component---src-pages-fees-js-e9736292168fb7e92fb2.js.map"
+      "component---src-pages-fees-js-719c3fbf43830e26079e.js",
+      "component---src-pages-fees-js-719c3fbf43830e26079e.js.map"
     ],
     "component---src-pages-useful-websites-js": [
-      "component---src-pages-useful-websites-js-b045774f69a2226f00b3.js",
-      "component---src-pages-useful-websites-js-b045774f69a2226f00b3.js.map"
+      "component---src-pages-useful-websites-js-22a56123e911643cac3c.js",
+      "component---src-pages-useful-websites-js-22a56123e911643cac3c.js.map"
     ],
     "component---src-pages-testimonials-js": [
-      "component---src-pages-testimonials-js-738d189ada853f43f57e.js",
-      "component---src-pages-testimonials-js-738d189ada853f43f57e.js.map"
+      "component---src-pages-testimonials-js-b6048ffcb56486641a58.js",
+      "component---src-pages-testimonials-js-b6048ffcb56486641a58.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -85,8 +85,8 @@
       "path---privacy-policy-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-me-js": [
-      "component---src-pages-about-me-js-3e5fb4e53e07a6044c8e.js",
-      "component---src-pages-about-me-js-3e5fb4e53e07a6044c8e.js.map"
+      "component---src-pages-about-me-js-381ffb5f186182361725.js",
+      "component---src-pages-about-me-js-381ffb5f186182361725.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
