@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "component---src-pages-privacy-policy-js": [
+      "component---src-pages-privacy-policy-js-96fab7d83149293866ed.js",
+      "component---src-pages-privacy-policy-js-96fab7d83149293866ed.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-24d369a94f049f90a394.js",
       "component---src-pages-index-js-24d369a94f049f90a394.js.map"
@@ -17,8 +21,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-fc3370aeaed1cc734075.js",
-      "component---src-layouts-index-js-fc3370aeaed1cc734075.js.map"
+      "component---src-layouts-index-js-7cb0081f065600b0c0df.js",
+      "component---src-layouts-index-js-7cb0081f065600b0c0df.js.map"
     ],
     "path---useful-websites": [
       "path---useful-websites-a0e39f21c11f6a62c5ab.js",
@@ -41,8 +45,8 @@
       "component---src-pages-404-js-aa214d34434df1c456ac.js.map"
     ],
     "commons": [
-      "commons-961887d3f3b2d16d5e81.js",
-      "commons-961887d3f3b2d16d5e81.js.map"
+      "commons-922bd637923bf00f2c28.js",
+      "commons-922bd637923bf00f2c28.js.map"
     ],
     "path---about-me": [
       "path---about-me-a0e39f21c11f6a62c5ab.js",
@@ -65,16 +69,20 @@
       "component---src-pages-useful-websites-js-b045774f69a2226f00b3.js.map"
     ],
     "component---src-pages-testimonials-js": [
-      "component---src-pages-testimonials-js-3fa33caa039a976c5b0a.js",
-      "component---src-pages-testimonials-js-3fa33caa039a976c5b0a.js.map"
+      "component---src-pages-testimonials-js-738d189ada853f43f57e.js",
+      "component---src-pages-testimonials-js-738d189ada853f43f57e.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-bdda9550b376610f81b9.js",
-      "app-bdda9550b376610f81b9.js.map"
+      "app-01f9b7d54adaa573b68b.js",
+      "app-01f9b7d54adaa573b68b.js.map"
+    ],
+    "path---privacy-policy": [
+      "path---privacy-policy-a0e39f21c11f6a62c5ab.js",
+      "path---privacy-policy-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-me-js": [
       "component---src-pages-about-me-js-3e5fb4e53e07a6044c8e.js",
