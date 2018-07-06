@@ -14,8 +14,8 @@ const Contact = () => (
       <p>If you would like to talk about your child, and how I may be able to help.<br />Please contact me on&nbsp;01892 723309&nbsp;or&nbsp;<a href="mailto:maryjane@madpoplars.co.uk">maryjane@madpoplars.co.uk</a></p>
     </div>
       <aside className="sidebar">
-        <img className="me" src="/static/images/mary-jane.jpg" alt="Picture of me" />
-        <img className="certifications" src="/static/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
+        <img className="me" src="../images/mary-jane.jpg" alt="Picture of me" />
+        <img className="certifications" src="../images/registered-logos.jpg" alt="Certifications that I'm registered to." />
       </aside>
     </div>
 

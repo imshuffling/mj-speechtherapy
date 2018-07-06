@@ -19,8 +19,8 @@ const Fees = () => (
       <p><strong>Travelling charge; £0.50 per mile.</strong><br />A travelling charge of 50 pence per mile applies for mileage of 10 miles and over from my base. Parents will be advised prior to a visit of what this charge is likely to be.</p>
       </div>
       <aside className="sidebar">
-        <img className="me" src="/static/images/mary-jane.jpg" alt="Picture of me" />
-        <img className="certifications" src="/static/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
+        <img className="me" src="../images/mary-jane.jpg" alt="Picture of me" />
+        <img className="certifications" src="../images/registered-logos.jpg" alt="Certifications that I'm registered to." />
       </aside>
     </div>
 
