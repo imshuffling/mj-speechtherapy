@@ -17,7 +17,7 @@ const NotFoundPage = () => (
         <img className="certifications" src="/static/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
       </aside>
     </div>
-  </section>  
+  </section>
 )
 
 export default NotFoundPage
