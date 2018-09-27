@@ -1,26 +1,8 @@
 import React from "react"
 import favicon from './favicon.png';
 
-let stylesStr
-if (process.env.NODE_ENV === `production`) {
-  try {
-    stylesStr = require(`!raw-loader!../public/styles.css`)
-  } catch (e) {
-    console.log(e)
-  }
-}
-
-module.exports = class HTML extends React.Component {
+export default class HTML extends React.Component {
   render() {
-    let css
-    if (process.env.NODE_ENV === `production`) {
-      css = (
-        <style
-          id="gatsby-inlined-css"
-          dangerouslySetInnerHTML={{ __html: stylesStr }}
-        />
-      )
-    }
     return (
       <html lang="en">
         <head>
@@ -31,9 +13,10 @@ module.exports = class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <meta name="theme-color" content="#6c27ae" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
           <link rel="shortcut icon" type="image/png" href={favicon} />
+          <link rel="apple-touch-icon" href={favicon} />
           {this.props.headComponents}
-          {css}
           <noscript>Your browser does not support JavaScript!</noscript>
         </head>
         <body {...this.props.bodyAttributes}>

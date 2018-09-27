@@ -1,7 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import Layout from "../components/layout"
 
 const Testimonials = () => (
+  <Layout>
   <section id='testimonials'>
   <div className="banner">
     <div className="banner-inner">
@@ -40,12 +41,13 @@ const Testimonials = () => (
       <p>I would wholeheartedly recommend Mary-Jane without hesitation for any child with articulation difficulties, even those that have proven extremely resistant to speech and language therapy in the past.</p>
 </div>
       <aside className="sidebar">
-        <img className="me" src="/static/images/mary-jane.jpg" alt="Picture of me" />
+        <img className="me" src="/static/images/mary-jane.jpg" alt="Mary-Jane Iles" />
         <img className="certifications" src="/static/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
       </aside>
     </div>
 
   </section>
+  </Layout>
 )
 
 export default Testimonials
