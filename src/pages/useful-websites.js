@@ -40,8 +40,8 @@ const UsefulWebsites = () => (
     	Provides information on independent Speech and Language Therapy throughout the United Kingdom.&nbsp;</p>
       </div>
       <aside className="sidebar">
-        <img className="me" src="/static/images/mary-jane.jpg" alt="Mary-Jane Iles" />
-        <img className="certifications" src="/static/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
+        <img className="me" src="/images/mary-jane.jpg" alt="Mary-Jane Iles" />
+        <img className="certifications" src="/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
       </aside>
     </div>
 
