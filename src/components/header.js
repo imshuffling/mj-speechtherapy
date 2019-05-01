@@ -4,7 +4,6 @@ import logo from '../logo.png';
 
 class Header extends React.Component {
   render(props) {
-
   const data = this.props.nav.contentfulNavigation.menuItem
 
   return (
