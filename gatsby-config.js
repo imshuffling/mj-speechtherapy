@@ -1,6 +1,4 @@
 const dotenv = require('dotenv');
-// const { BLOCKS, MARKS, INLINES } = require('@contentful/rich-text-types')
-// import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 
 if (process.env.ENVIRONMENT !== 'production') {
   dotenv.config();
@@ -9,8 +7,8 @@ if (process.env.ENVIRONMENT !== 'production') {
 module.exports = {
   siteMetadata: {
     title: 'Mary Jane Speech Therapy',
+    siteUrl: `https://mj-speechtherapy.co.uk`,
   },
-  pathPrefix: `/`,
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
