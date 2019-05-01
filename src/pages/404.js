@@ -14,10 +14,6 @@ const NotFoundPage = () => (
         <h1>NOT FOUND</h1>
         <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
       </div>
-        <aside className="sidebar">
-          <img className="me" src="/images/mary-jane.jpg" alt="Mary-Jane Iles" />
-          <img className="certifications" src="/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
-        </aside>
       </div>
     </section>
   </Layout>

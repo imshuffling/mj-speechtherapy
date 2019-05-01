@@ -1,3 +1,11 @@
+const dotenv = require('dotenv');
+// const { BLOCKS, MARKS, INLINES } = require('@contentful/rich-text-types')
+// import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
+
+if (process.env.ENVIRONMENT !== 'production') {
+  dotenv.config();
+}
+
 module.exports = {
   siteMetadata: {
     title: 'Mary Jane Speech Therapy',
@@ -15,18 +23,17 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#6c27ae",
         display: "standalone",
-        icons: [
-          {
-            src: `/favicons/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/favicons/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
+        icon: `src/images/android-chrome-512x512.png`,
+      },
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: `rhjyv1jbrooj`,
+        accessToken: `96068c58532a4e6de67144276ce4aca752242e73dc558b919122e8eaa0151066`
       },
     },
     'gatsby-plugin-offline',
