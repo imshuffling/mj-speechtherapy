@@ -4,6 +4,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import { StaticQuery, graphql } from "gatsby"
 import '../styles/index.scss'
+import 'typeface-pt-sans'
 
 const Layout = ({ children }) => (
   <StaticQuery
