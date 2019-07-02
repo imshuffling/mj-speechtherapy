@@ -21,10 +21,12 @@
   text-decoration: none;
   @include breakpoint(medium) {
     max-width: 300px;
+    margin-bottom: 0;
   }
 
-  @include breakpoint(medium) {
+  @include breakpoint(large) {
     max-width: 366px;
+    margin-bottom: 0;
   }
 
   &:hover {
@@ -36,10 +38,12 @@
 .contact-details {
   @include breakpoint(medium) {
     margin-left: auto;
+    padding-left: 20px;
   }
 
   @include breakpoint(large) {
     margin-left: auto;
+    padding-left: 20px;
   }
 
   h2, h3, h4, h5 {
@@ -57,10 +61,14 @@
   display: flex;
   align-items: center;
   margin: 0px auto;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
+  @include breakpoint(medium) {
+    flex-direction: row;
+  }
+
   li {
     font-size: 15px;
     a {
