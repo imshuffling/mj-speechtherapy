@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Sidebar from '../components/sidebar'
 import BackgroundImage from 'gatsby-background-image'
 import { BLOCKS, MARKS } from "@contentful/rich-text-types"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
@@ -42,13 +43,6 @@ export default ({ data }) => {
         </Layout>
     )
 }
-
-const Sidebar = () => (
-    <aside className="sidebar">
-        <img className="me" src="/images/mary-jane.jpg" alt="Mary-Jane Iles" />
-        <img className="certifications" src="/images/registered-logos.jpg" alt="Certifications that I'm registered to." />
-    </aside>
-)
 
 export const query = graphql`
     query pageQuery($slug: String!) {
