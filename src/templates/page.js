@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import Sidebar from '../components/sidebar'
 import BackgroundImage from 'gatsby-background-image'
@@ -27,6 +28,9 @@ export default ({ data }) => {
 
     return (
         <Layout>
+            <Helmet>
+                <title>{title} - Mary Jane Speech Therapy</title>
+            </Helmet>
             {hero.file.url !== null &&
                 <BackgroundImage className="banner" fluid={hero.fluid}>
                     <div className="banner-inner">
